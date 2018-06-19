@@ -24,9 +24,11 @@ install:
   # Useful for debugging any issues with conda
   - conda info -a
 
-  # Replace dep1 dep2 ... with your dependencies
-  - conda env create -f docs/environment.yml
-  - source activate documentation
+  
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
+      conda env create --file ./docs/environment.yml ;
+      source activate documentation ;
+    fi
 
 script:
   - cd docs; make html linkcheck
