@@ -12,7 +12,6 @@ dependencies:
 - commonmark
 - cryptography
 - docutils
-- example
 - future
 - idna
 - imagesize
@@ -51,3 +50,4 @@ dependencies:
 - zlib
 - pip:
   - recommonmark==0.4.0
+  - example
