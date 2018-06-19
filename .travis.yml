@@ -25,10 +25,8 @@ install:
   - conda info -a
 
   
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
-      conda env create --file ./docs/environment.yml ;
-      source activate documentation ;
-    fi
+  - conda env create --file ./docs/environment.yml; source activate documentation;
+   
 
 script:
   - cd docs; make html linkcheck
