@@ -1,1 +1,0 @@
-example.rst:11: [redirected permanently] http://github.com/numpy/numpydoc/blob/master/doc/example.py to https://github.com/numpy/numpydoc/blob/master/doc/example.py
