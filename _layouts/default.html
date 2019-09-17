@@ -3,10 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-     <link rel="stylesheet" href="/assets/css/styles.css">
+      <link rel="stylesheet" href="{{'/assets/css/styles.css' |  prepend: site.baseurl}}">
   </head>
-  <body>
-    {% include navigation.html %}
-    {{ content }}
+ <body>
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">Cover</h3>
+          {% include navigation.html %}
+       </div>
+      </header>
+
+      <main role="main" class="inner cover">
+          {{ content }}
+      </main>
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>@ Arbor</p>
+        </div>
+      </footer>
+    </div>
+    <!-- JS -->
+    <script src="{{'/assets/vendor/jquery.min.js' | prepend: site.baseurl}}"></script>
+    <script src="{{'/assets/vendor/popper-utils.min.js' | prepend: site.baseurl}}"></script>
+	<script src="{{'/assets/vendor/bootstrap.min.js' | prepend: site.baseurl}}"></script>
   </body>
 </html>

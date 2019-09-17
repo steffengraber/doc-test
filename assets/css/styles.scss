@@ -1,3 +1,59 @@
 ---
 ---
 @import "main";
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #000;
+}
+.active {
+	color: $link-color;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+}
+
+.inner, .cover-container {
+  max-width: 60em;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+  top: -rem;
+
+}
+.cover .btn-lg {
+  padding: 0 1.25rem;
+  font-weight: 700;
+
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
+
