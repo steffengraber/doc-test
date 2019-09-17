@@ -1,6 +1,6 @@
 - name: Home
-  link: /doc-test/
+  link: /
 - name: Zwei
-  link: /doc-test/#zwei
+  link: /#zwei
 - name: About
-  link: /doc-test/about.html
+  link: /about.html
