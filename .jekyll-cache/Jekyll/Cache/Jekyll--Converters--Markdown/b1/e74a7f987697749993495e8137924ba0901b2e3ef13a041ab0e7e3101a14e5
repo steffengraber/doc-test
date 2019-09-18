@@ -1,45 +1,5 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>About</title>
-      <link rel="stylesheet" href="/assets/css/styles.css">
-  </head>
- <body style="margin-top: 4.5rem;">
-      <!-- navigation -->
-      
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-  <div class="container">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarToggler">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        
-            <li class="nav-link">
-              <a href="/" class="nav-link">Home</a>
-            </li>
-        
-            <li class="nav-link">
-              <a href="/#zwei" class="nav-link">Zwei</a>
-            </li>
-        
-            <li class="nav-item active">
-              <a href="/about.html" class="nav-link">About</a>
-            </li>
-        
-      </ul>
-    </div>
-  </div>
-</nav>
-
-      <!-- navigation end-->
-      <main role="main">
-        <div class="container">
-          <!-- content -->
-          <h1 id="about-page">About page</h1>
+I"&
+<h1 id="about-page">About page</h1>
 
 <p>This page tells you a little bit about me.</p>
 
@@ -54,20 +14,4 @@
 <p>Pellentesque imperdiet mi in felis hendrerit, vel efficitur metus gravida. Nunc at risus ex. Mauris vitae posuere justo. Curabitur tincidunt ullamcorper laoreet. Etiam ac nibh orci. Vestibulum eu justo vulputate sapien mollis aliquam ut eget lorem. Aliquam tincidunt tortor ut est cursus hendrerit. Praesent ut eros et metus condimentum tempus vitae sit amet justo. Suspendisse potenti. Etiam at porttitor lacus.</p>
 
 <p>Nunc pharetra dictum tellus, id porta odio. Donec eleifend lorem fermentum dui ornare posuere. Suspendisse potenti. Nullam convallis nibh lacus. In volutpat erat elit, in laoreet erat consectetur quis. Proin orci ligula, consequat commodo rhoncus vitae, tempus vel lorem. Vivamus interdum nibh ac purus commodo egestas. Duis vestibulum sed nisl efficitur posuere.</p>
-
-          <!-- content end -->
-        </div>
-      </main>
-
-      <footer class="mastfoot mt-auto">
-        <div class="container">
-          <p>@ Arbor</p>
-        </div>
-      </footer>
-    <!-- js -->
-    <script src="/assets/vendor/jquery.min.js"></script>
-    <script src="/assets/vendor/popper-utils.min.js"></script>
-	<script src="/assets/vendor/bootstrap.min.js"></script>
-    <script src="/assets/js/js.js"></script>
-  </body>
-</html>
+:ET
