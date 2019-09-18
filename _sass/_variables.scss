@@ -39,19 +39,20 @@ $dark:          $gray-700 !default;
 
 $yiq-contrasted-threshold:  175 !default;
 
-// Links
 
-$link-color:                $success !default;
+
 
 // Fonts
 
-$font-family-sans-serif:      "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
-
+$font-family-sans-serif:      "Ubuntu", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-serif:           'Lora', serif;
 $font-size-base:              0.9375rem !default;
 
 $h1-font-size:                3rem !default;
+
 $h2-font-size:                2.5rem !default;
 $h3-font-size:                2rem !default;
+
 
 // Tables
 
@@ -65,7 +66,7 @@ $dropdown-link-hover-bg:            $primary !default;
 
 // Navs
 
-$nav-link-padding-y:                .5rem !default !default;
+$nav-link-padding-y:                0rem !default !default;
 $nav-link-padding-x:                2rem !default;
 $nav-link-disabled-color:           $gray-600 !default !default;
 
@@ -73,10 +74,11 @@ $nav-tabs-border-color:             $gray-200 !default;
 
 // Navbar
 
-$navbar-padding-y:                  1rem !default;
+$navbar-padding-y:                  1.5rem !default;
 
 $navbar-dark-color:                 $white !default;
 $navbar-dark-hover-color:           $success !default;
+
 
 // Pagination
 
