@@ -5,11 +5,12 @@
 /* Links */
 a,
 a:focus,
-a:hover {
-  color: #000;
+a:active,
+ {
+  color: #a73700;
 }
-.active {
-	color: $link-color;
+a:hover {
+	color: #d96100;
 }
 
 /*
@@ -54,6 +55,24 @@ body {
  * Footer
  */
 .mastfoot {
-  color: rgba(255, 255, 255, .5);
+  color: $gray-400;
 }
 
+
+
+// --------- Main changes
+
+h1, h2 {
+  font-family: $font-family-serif;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+#toTop{
+	position: fixed;
+	bottom: 1.8rem;
+	right: 1.2rem;
+	cursor: pointer;
+	display: none;
+}

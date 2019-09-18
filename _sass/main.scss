@@ -1,6 +1,7 @@
 @import "variables";
 @import "bootstrap/scss/bootstrap";
 
+
 // Flatly 4.3.1
 // Bootswatch
 
@@ -250,20 +251,6 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Lora:400,700|Ubuntu:400
   }
 }
 
-// --------- Main changes
 
-h1, h2 {
-  font-family: $font-family-serif;
-  font-size: 3rem;
-  text-align: center;
-  padding: 2rem 0;
-}
 
-#toTop{
-	position: fixed;
-	bottom: 1.8rem;
-	right: 1.2rem;
-	cursor: pointer;
-	display: none;
-}
 

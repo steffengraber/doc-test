@@ -3260,14 +3260,10 @@ a.text-dark:hover, a.text-dark:focus { color: #576263 !important; }
 
 .modal .close:not(:disabled):not(.disabled):hover, .modal .close:not(:disabled):not(.disabled):focus { color: #000; }
 
-h1, h2 { font-family: "Lora", serif; font-size: 3rem; text-align: center; padding: 2rem 0; }
-
-#toTop { position: fixed; bottom: 1.8rem; right: 1.2rem; cursor: pointer; display: none; }
-
 /* Links */
-a, a:focus, a:hover { color: green; }
+a, a:focus, a:active { color: #a73700; }
 
-.active { color: #2C3E50; }
+a:hover { color: #d96100; }
 
 /* Base structure */
 html, body { height: 100%; background-color: #fff; }
@@ -3283,7 +3279,10 @@ html, body { height: 100%; background-color: #fff; }
 .cover .btn-lg, .cover .btn-group-lg > .btn { padding: 0 1.25rem; font-weight: 700; }
 
 /* Footer */
-.mastfoot { color: rgba(255, 255, 255, 0.5); }
+.mastfoot { color: #ced4da; }
+
+h1, h2 { font-family: "Lora", serif; font-size: 3rem; text-align: center; padding: 2rem 0; }
+
+#toTop { position: fixed; bottom: 1.8rem; right: 1.2rem; cursor: pointer; display: none; }
 
 /*# sourceMappingURL=styles.css.map */
-
